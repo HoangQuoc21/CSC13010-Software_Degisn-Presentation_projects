@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
+
 namespace Car_Racing_Game
 {
     public partial class MainWindow : Window
@@ -154,7 +155,7 @@ namespace Car_Racing_Game
             moveLeft = false;
             moveRight = false;
             gameOver = false;
- 
+
             playerImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/player.png"));
             fastImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/fast.png"));
             slowImage.ImageSource = new BitmapImage(new Uri("pack://application:,,,/images/slow.png"));
