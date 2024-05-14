@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Car_Racing_Game_WPF_MOO_ICT
+namespace Car_Racing_Game
 {
     /// <summary>
     /// Interaction logic for App.xaml
